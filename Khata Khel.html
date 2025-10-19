@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Khata Khel — Official Site</title>
+  <meta name="description" content="Khata Khel — community, history, and genealogy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.svg">
+  <meta property="og:title" content="Khata Khel — Official Site">
+  <meta property="og:description" content="Community, history, sub-clans, and genealogy resources.">
+  <meta property="og:image" content="assets/og-cover.jpg">
+  <meta name="theme-color" content="#0f1117">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#home">Khata Khel</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#subclans">Sub-clans</a>
+        <a href="#genealogy">Genealogy</a>
+        <a href="#locations">Locations</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <h1>Khata Khel <span>خټہ خېل</span></h1>
+      <p class="lead">A community hub for history, sub-clans, lineage, and diaspora connections.</p>
+      <div class="cta">
+        <a class="btn primary" href="#genealogy">View Family Tree</a>
+        <a class="btn" href="#resources">Browse Resources</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container grid two">
+      <div>
+        <h2>About</h2>
+        <p>Welcome to the <strong>Khata Khel</strong> website. This is a community-maintained space to document
+        our origins, migrations, and family lines. All dates and details here are community-submitted—please add or correct
+        information by contacting the admins below.</p>
+        <div class="notice">
+          <strong>Note:</strong> Replace placeholder text and images with your own content.
+        </div>
+      </div>
+      <div class="card urdu">
+        <h3>خټہ خېل — تعارف</h3>
+        <p>دا وېبپاڼه د خټہ خېل کورنۍ لپاره ده. مهرباني وکړئ خپل معلومات، تاریخ او شجره اضافه کړئ.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="subclans" class="section alt">
+    <div class="container">
+      <h2>Sub-clans (Khels)</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Shamshi Khel</h3>
+          <p>Brief note about origins and notable families. Replace with verified details.</p>
+        </article>
+        <article class="card">
+          <h3>Khani Khel</h3>
+          <p>Short description or historical note. Add sources in the Resources section.</p>
+        </article>
+        <article class="card">
+          <h3>Malak Khel</h3>
+          <p>Summary of lineages and branches. Update with local records.</p>
+        </article>
+        <article class="card">
+          <h3>Others</h3>
+          <p>Add additional sub-clans here (e.g., Niamat Khel, Basikhel, etc.).</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="genealogy" class="section">
+    <div class="container grid two">
+      <div>
+        <h2>Genealogy</h2>
+        <p>Use this as a placeholder to upload a PDF image of your family tree or link to a Google Sheet.
+        For now, the image on the right shows a simple example chart. Replace <code>assets/tree-sample.jpg</code>
+        with your own chart export.</p>
+        <ul class="checklist">
+          <li>Keep names consistent (spelling variants listed in Resources).</li>
+          <li>Record dates with day-month-year (e.g., 12-03-1978).</li>
+          <li>Cite where each fact came from (book, registry, family record).</li>
+        </ul>
+      </div>
+      <div class="card">
+        <img class="responsive" src="assets/tree-sample.jpg" alt="Sample genealogy tree">
+      </div>
+    </div>
+  </section>
+
+  <section id="locations" class="section alt">
+    <div class="container">
+      <h2>Locations & Diaspora</h2>
+      <p>Key places historically associated with Khata Khel (Swat, Hazara, etc.) and global diaspora.
+      Replace the placeholder map below with a real Google Maps embed (see README).</p>
+      <div class="map-placeholder">Map placeholder</div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="assets/sample1.jpg" alt="Historic photo placeholder">
+        <img src="assets/sample2.jpg" alt="Community event placeholder">
+        <img src="assets/sample3.jpg" alt="Landscape placeholder">
+      </div>
+      <p class="muted">Replace <code>assets/sample*.jpg</code> with your photos.</p>
+    </div>
+  </section>
+
+  <section id="resources" class="section alt">
+    <div class="container grid two">
+      <div>
+        <h2>Resources & Citations</h2>
+        <ul class="resources">
+          <li>Local histories and gazetteers — add book titles and page numbers.</li>
+          <li>Archives (e.g., British Library India Office Records) — add call numbers.</li>
+          <li>Community oral histories — include dates/interviewers.</li>
+          <li>Civil registration and land records — include document IDs.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Contribute</h3>
+        <p>Send corrections or add new branches to the tree. We welcome photos (with captions), documents, and
+        verified dates.</p>
+        <a class="btn primary" href="mailto:editor@example.com?subject=Khata%20Khel%20Website%20Contribution">Email the editors</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container grid two">
+      <div>
+        <h2>Contact</h2>
+        <p>For general contact, use the email button. You can also embed a simple form service later.</p>
+        <a class="btn" href="mailto:editor@example.com?subject=Hello%20from%20Khata%20Khel%20site">Email us</a>
+      </div>
+      <div class="card">
+        <h3>Social / Updates</h3>
+        <p>Add links to WhatsApp, Facebook groups, or a newsletter here.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Khata Khel — Community-maintained.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
